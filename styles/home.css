@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ /* Hero Section */
+ .hero {
+     position: relative;
+     background-image: url('/images/4.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 80vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     color: white;
+ }
+ 
+ .overlay {
+     background: rgba(0, 0, 0, 0.5);
+     padding: 20px;
+     width: 100%;
+ }
+ 
+ .hero h1 {
+     font-size: 48px;
+     margin: 0;
+ }
+ 
+ .hero span {
+     color: #00d1b2;
+ }
+ 
+ .hero p {
+     font-size: 18px;
+     margin-top: 10px;
+ }
+ 
+ .btn {
+     display: inline-block;
+     margin-top: 20px;
+     padding: 10px 20px;
+     background: #00d1b2;
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     border-radius: 5px;
+     transition: background-color 0.3s linear;
+ }
+ 
+ .btn:hover {
+     background-color: #009f9d;
+ }
+ 
